@@ -1,0 +1,81 @@
+html {
+    box-sizing: border-box;
+    font-size: 100%;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    background-image: url(images/bg-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: hsl(257, 40%, 49%);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+h2 {
+    font-family: Poppins;
+    color: white;
+    font-size: 40px;
+}
+
+.illustration-mockup-div, .text-container {
+    width: 710px;
+}
+
+.text-container > p {
+    font-family: Open Sans, sans-serif;
+    color: white;
+}
+
+.register-button {
+    display: inline-block;
+    width: 150px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 100px;
+    background-color: white;
+    font-family: Open Sans, sans-serif;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+}
+
+footer > p {
+    display: inline-block;
+}
+
+.icons {
+    display: inline-block;
+    width: 200px;
+    justify-self: flex-end;
+    text-align: right;
+}
+
+.icons > i {
+    color: white;
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 5px;
+    margin: 2px;
+}
+
