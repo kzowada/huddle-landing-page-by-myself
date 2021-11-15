@@ -14,18 +14,29 @@ body {
     background-color: hsl(257, 40%, 49%);
 }
 
+nav {
+    display: flex;
+    height: 20vh;
+}
+
+nav > svg {
+    align-self: center;
+    margin-left: 65px;
+}
+
 main {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
+    min-height: 70vh;
 }
 
 .container {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    max-width: 1310px;
 }
 
 h2 {
@@ -38,8 +49,14 @@ h2 {
     width: 710px;
 }
 
+.text-container {
+    margin-left: 100px;
+    
+}
+
 .text-container > p {
     font-family: Open Sans, sans-serif;
+    line-height: 1.6;
     color: white;
 }
 
@@ -48,34 +65,55 @@ h2 {
     width: 150px;
     text-align: center;
     padding: 10px;
+    margin-top: 12.5px;
     border-radius: 100px;
     background-color: white;
     font-family: Open Sans, sans-serif;
     font-size: 15px;
     text-decoration: none;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.register-button:hover {
+    color: white;
+    background-color: hsl(300, 69%, 71%);
 }
 
 footer {
     display: flex;
     flex-direction: row;
+    justify-content: flex-end;
+    height: 10vh;
 }
 
-footer > p {
-    display: inline-block;
+.attribution {
+    font-size: 20px;
+    align-self: center;
+    color: white;
+}
+
+.attribution > a {
+    text-decoration: none;
 }
 
 .icons {
-    display: inline-block;
+    display: inline-flex;
     width: 200px;
-    justify-self: flex-end;
-    text-align: right;
+    justify-content: space-around;
+    margin-right: 30px;
 }
 
-.icons > i {
-    color: white;
-    border: 1px solid white;
+.icon-wrapper {
+    width: 50px;
+    height: 50px;
+    text-decoration: none;
+    border: 1.5px solid white;
     border-radius: 50%;
-    padding: 5px;
-    margin: 2px;
+    text-align: center;
+}
+
+i {
+    padding-top: 9px;
+    color: white;
 }
 
