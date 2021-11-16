@@ -80,16 +80,17 @@ h2 {
 }
 
 footer {
+    position: relative;
     display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
     height: 10vh;
+    justify-content: center;
 }
 
 .attribution {
     font-size: 20px;
     align-self: center;
     color: white;
+    font-family: Open Sans;
 }
 
 .attribution > a {
@@ -97,6 +98,9 @@ footer {
 }
 
 .icons {
+    position: absolute;
+    top: 0;
+    right: 0;
     display: inline-flex;
     width: 200px;
     justify-content: space-around;
