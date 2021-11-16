@@ -52,7 +52,3 @@ I'll have to focus on making my pages way more responsive. And start out with th
 ## Author
 
 - Frontend Mentor - [@kzowada](https://www.frontendmentor.io/profile/kzowada)
-<<<<<<< HEAD
-
-=======
->>>>>>> 6cf5dea64b64c4357c4fb468c98607b8b7c869da
