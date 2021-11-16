@@ -121,3 +121,32 @@ i {
     color: white;
 }
 
+/*Mobile Design*/  /*My Media query is completely messed up i think it is better to start out with the mobile design first and from there 
+on expand my css to a bigger screen. 
+@media screen and (max-width: 600px) {
+
+    main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        min-height: 70vh;
+    }
+    
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        max-width: 100%;
+    }
+
+    .illustration-mockup-div, .text-container {
+        width: 100%;
+    }
+
+    .text-container {
+        margin-left: 0%;
+    }
+}
+
+
