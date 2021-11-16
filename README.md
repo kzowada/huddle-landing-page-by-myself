@@ -51,4 +51,4 @@ I'll have to focus on making my pages way more responsive. And start out with th
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/kzowada)
+- Frontend Mentor - [@kzowada](https://www.frontendmentor.io/profile/yourusername)
